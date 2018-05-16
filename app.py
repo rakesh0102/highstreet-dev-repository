@@ -97,7 +97,7 @@ def relayRequest(req):
     elif req.get("result").get("action") == "request_name_permission" or req.get("result").get("action") == "read_mind" or req.get("result").get("action") == "actions_intent_PERMISSION" :
         baseurl = "https://us-central1-namepsychicdemo-6bd8d.cloudfunctions.net/namePsychic/"
     else:
-        baseurl = "http://34.203.152.187/highstreetcommercewebservices/v2/highstreet/webhook/"
+        baseurl = "http://52.22.7.62/highstreetcommercewebservices/v2/highstreet/webhook/"
     
     
     reqObj = urllib.request.Request(baseurl)
